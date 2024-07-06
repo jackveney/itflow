@@ -1439,7 +1439,7 @@ if (isset($_GET['close_ticket'])) {
     }
     //End Mail IF
 
-    $_SESSION['alert_message'] = "Ticket Closed, this cannot not be reopened but you may start another one";
+    $_SESSION['alert_message'] = "Ticket Closed, this cannot be reopened but you may start another one";
     header("Location: " . $_SERVER["HTTP_REFERER"]);
 }
 
